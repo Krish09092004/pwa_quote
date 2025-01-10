@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.box{
+    text-align: center;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+}
+h1{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+
+#quote{
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    padding: 10px 15px;
+    margin: 10px 5px;
+    border:none;
+    background-color: rgb(14, 7, 20);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+button:hover{
+    background-color: #0056b3;
+}
